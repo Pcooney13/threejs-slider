@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>🔺Three-js Image Slider🔺</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Poppins:wght@200;400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="fixed right-0 flex flex-col justify-center h-full">
+            <ul id="menu-nav" class="nav pr-8 pl-4">
+                <li class="bg-white h-4 w-2 rounded-full my-4 opacity-75 hover:opacity-100" data-nav="0"></li>
+                <li class="bg-white h-4 w-2 rounded-full my-4 opacity-75 hover:opacity-100" data-nav="1"></li>
+                <li class="bg-white h-4 w-2 rounded-full my-4 opacity-75 hover:opacity-100" data-nav="2"></li>
+                <li class="bg-white h-4 w-2 rounded-full my-4 opacity-75 hover:opacity-100" data-nav="3"></li>
+                <li class="bg-white h-4 w-2 rounded-full my-4 opacity-75 hover:opacity-100" data-nav="4"></li>
+            </ul>
+        </div>
+        <span>Pat Cooney</span>
+        <!-- <button id="btn">||</button> -->
+        <div id="wrap">    
+            <div data-bgcolor="#e74d37" data-textcolor="#3ddee2" class="n">
+                <h1 style="color:#3ddee2">Rise & Shine</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi a amet dolores quae voluptates deserunt aperiam corporis quisquam, laudantium cumque, qui nemo dignissimos temporibus alias suscipit, ea ullam magni.</p>
+                <img src="../static/img/image-1.jpg" width="30" alt="image 1"/>
+                <div class="learn-more">
+                    <p><strong>Learn More</strong></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" stroke="#3ddee2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </div>
+            <div data-bgcolor="#e530b2" data-textcolor="#" class="n n1">
+                <h1 style="color:#fef548">Title 2</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi a amet dolores quae voluptates deserunt aperiam corporis quisquam, laudantium cumque, qui nemo dignissimos temporibus alias suscipit, ea ullam magni.</p>
+                <img src="../static/img/image-2.jpg" width="30" alt="image 2"/>
+                <div class="learn-more">
+                    <p><strong>Learn More</strong></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" stroke="#fef548" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </div>
+            <div data-bgcolor="#351f77" class="n n2">
+                <h1 style="color:#ef307e">Title 3</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi a amet dolores quae voluptates deserunt aperiam corporis quisquam, laudantium cumque, qui nemo dignissimos temporibus alias suscipit, ea ullam magni.</p>
+                <img src="../static/img/image-3.jpg" width="30" alt="image 3"/>
+                <div class="learn-more">
+                    <p><strong>Learn More</strong></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" stroke="#ef307e" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </div>
+            <div data-bgcolor="#f94c1e" class="n n3">
+                <h1>Look a Ladybug</h1>
+                <p>The name "ladybug" was coined by European farmers who prayed to the Virgin Mary when pests began eating their crops. After ladybugs came and wiped out the invading insects, the farmers named them "beetle of Our Lady."</p>
+                <img src="../static/img/image-4.jpg" width="30" alt="image 4"/>
+                <div class="learn-more">
+                    <p><strong>Learn More</strong></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" stroke="#3ddee2" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </div>
+            <div data-bgcolor="#031024" class="n n4">
+                <h1 style="color:#ff78a5">Title 5</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt commodi a amet dolores quae voluptates deserunt aperiam corporis quisquam, laudantium cumque, qui nemo dignissimos temporibus alias suscipit, ea ullam magni.</p>
+                <img src="../static/img/image-5.jpg" width="30" alt="image 5"/>
+                <div class="learn-more">
+                    <p><strong>Learn More</strong></p>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" stroke="#4127ff" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 8l4 4m0 0l-4 4m4-4H3" />
+                    </svg>
+                </div>
+            </div>
+        </div>
+        <div style="border-left:1rem solid #4127ff" id="container"></div>
+    </body>
+</html>
